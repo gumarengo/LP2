@@ -25,11 +25,11 @@ namespace PesoIdeal
             {
                 if (radioMasc.Checked)
                 {
-                    imc = (72.7 * altura) - 58.0;
+                    imc = Math.Round((72.7 * altura) - 58.0,1);
                 }
                 else if (radioFem.Checked)
                 {
-                    imc = (62.1 * altura) - 44.7;
+                    imc = Math.Round((62.1 * altura) - 44.7,1);
                 }
                 else
                     MessageBox.Show("Selecione Sexo");
