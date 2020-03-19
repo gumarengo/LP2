@@ -31,8 +31,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textPeso = new System.Windows.Forms.TextBox();
-            this.textAltura = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioFem = new System.Windows.Forms.RadioButton();
             this.radioMasc = new System.Windows.Forms.RadioButton();
@@ -41,6 +39,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.labelAVISO = new System.Windows.Forms.Label();
+            this.textAltura = new System.Windows.Forms.MaskedTextBox();
+            this.textPeso = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -74,20 +74,6 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Sexo";
             // 
-            // textPeso
-            // 
-            this.textPeso.Location = new System.Drawing.Point(86, 46);
-            this.textPeso.Name = "textPeso";
-            this.textPeso.Size = new System.Drawing.Size(111, 20);
-            this.textPeso.TabIndex = 3;
-            // 
-            // textAltura
-            // 
-            this.textAltura.Location = new System.Drawing.Point(86, 81);
-            this.textAltura.Name = "textAltura";
-            this.textAltura.Size = new System.Drawing.Size(111, 20);
-            this.textAltura.TabIndex = 4;
-            // 
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.radioFem);
@@ -120,20 +106,22 @@
             // 
             // button1
             // 
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Location = new System.Drawing.Point(229, 76);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(174, 63);
             this.button1.TabIndex = 6;
-            this.button1.Text = "CALCULAR IMC";
+            this.button1.Text = "CALCULAR";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // maskedIMC
             // 
             this.maskedIMC.Enabled = false;
-            this.maskedIMC.Location = new System.Drawing.Point(86, 228);
+            this.maskedIMC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.maskedIMC.Location = new System.Drawing.Point(130, 227);
             this.maskedIMC.Name = "maskedIMC";
-            this.maskedIMC.Size = new System.Drawing.Size(111, 20);
+            this.maskedIMC.Size = new System.Drawing.Size(111, 23);
             this.maskedIMC.TabIndex = 7;
             // 
             // label4
@@ -141,20 +129,20 @@
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.Location = new System.Drawing.Point(17, 9);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(217, 33);
+            this.label4.Size = new System.Drawing.Size(305, 33);
             this.label4.TabIndex = 8;
-            this.label4.Text = "Calcule seu IMC";
+            this.label4.Text = "Calcule seu Peso Ideal";
             this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(40, 231);
+            this.label5.Location = new System.Drawing.Point(40, 229);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 17);
+            this.label5.Size = new System.Drawing.Size(84, 17);
             this.label5.TabIndex = 9;
-            this.label5.Text = "IMC";
+            this.label5.Text = "Peso Ideal";
             // 
             // labelAVISO
             // 
@@ -166,19 +154,36 @@
             this.labelAVISO.TabIndex = 8;
             this.labelAVISO.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // textAltura
+            // 
+            this.textAltura.ImeMode = System.Windows.Forms.ImeMode.Off;
+            this.textAltura.Location = new System.Drawing.Point(86, 84);
+            this.textAltura.Mask = "0.00";
+            this.textAltura.Name = "textAltura";
+            this.textAltura.PromptChar = '0';
+            this.textAltura.Size = new System.Drawing.Size(111, 20);
+            this.textAltura.TabIndex = 11;
+            // 
+            // textPeso
+            // 
+            this.textPeso.Location = new System.Drawing.Point(86, 48);
+            this.textPeso.Name = "textPeso";
+            this.textPeso.Size = new System.Drawing.Size(111, 20);
+            this.textPeso.TabIndex = 12;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(429, 276);
+            this.Controls.Add(this.textPeso);
+            this.Controls.Add(this.textAltura);
             this.Controls.Add(this.labelAVISO);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.maskedIMC);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.textAltura);
-            this.Controls.Add(this.textPeso);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -196,8 +201,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textPeso;
-        private System.Windows.Forms.TextBox textAltura;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton radioFem;
         private System.Windows.Forms.RadioButton radioMasc;
@@ -206,6 +209,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label labelAVISO;
+        private System.Windows.Forms.MaskedTextBox textAltura;
+        private System.Windows.Forms.TextBox textPeso;
     }
 }
 
