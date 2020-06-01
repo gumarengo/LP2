@@ -1,0 +1,27 @@
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\bin\Debug\PAtividade6.exe.config
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\bin\Debug\PAtividade6.exe
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\bin\Debug\PAtividade6.pdb
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\obj\Debug\PAtividade6.csprojAssemblyReference.cache
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\obj\Debug\PAtividade6.Properties.Resources.resources
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\obj\Debug\PAtividade6.csproj.GenerateResource.cache
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\obj\Debug\PAtividade6.csproj.CoreCompileInputs.cache
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\obj\Debug\PAtividade6.exe
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\obj\Debug\PAtividade6.pdb
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\obj\Debug\PAtividade6.frmHome.resources
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\obj\Debug\PAtividade6.frmEx1.resources
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\obj\Debug\PAtividade6.frmEx2.resources
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\obj\Debug\PAtividade6.frmEx3.resources
+C:\Users\ptort\Documents\TTLCodes\PAtividade6\obj\Debug\PAtividade6.frmEx4.resources
+C:\Users\Gustavo Marengo\Desktop\FATEC\2 SEM\LP 2\aula online\ex 5 - pedro\PAtividade6\Atividade6\bin\Debug\PAtividade6.exe.config
+C:\Users\Gustavo Marengo\Desktop\FATEC\2 SEM\LP 2\aula online\ex 5 - pedro\PAtividade6\Atividade6\bin\Debug\PAtividade6.exe
+C:\Users\Gustavo Marengo\Desktop\FATEC\2 SEM\LP 2\aula online\ex 5 - pedro\PAtividade6\Atividade6\bin\Debug\PAtividade6.pdb
+C:\Users\Gustavo Marengo\Desktop\FATEC\2 SEM\LP 2\aula online\ex 5 - pedro\PAtividade6\Atividade6\obj\Debug\PAtividade6.csprojAssemblyReference.cache
+C:\Users\Gustavo Marengo\Desktop\FATEC\2 SEM\LP 2\aula online\ex 5 - pedro\PAtividade6\Atividade6\obj\Debug\PAtividade6.frmHome.resources
+C:\Users\Gustavo Marengo\Desktop\FATEC\2 SEM\LP 2\aula online\ex 5 - pedro\PAtividade6\Atividade6\obj\Debug\PAtividade6.frmEx1.resources
+C:\Users\Gustavo Marengo\Desktop\FATEC\2 SEM\LP 2\aula online\ex 5 - pedro\PAtividade6\Atividade6\obj\Debug\PAtividade6.frmEx2.resources
+C:\Users\Gustavo Marengo\Desktop\FATEC\2 SEM\LP 2\aula online\ex 5 - pedro\PAtividade6\Atividade6\obj\Debug\PAtividade6.frmEx3.resources
+C:\Users\Gustavo Marengo\Desktop\FATEC\2 SEM\LP 2\aula online\ex 5 - pedro\PAtividade6\Atividade6\obj\Debug\PAtividade6.frmEx4.resources
+C:\Users\Gustavo Marengo\Desktop\FATEC\2 SEM\LP 2\aula online\ex 5 - pedro\PAtividade6\Atividade6\obj\Debug\PAtividade6.Properties.Resources.resources
+C:\Users\Gustavo Marengo\Desktop\FATEC\2 SEM\LP 2\aula online\ex 5 - pedro\PAtividade6\Atividade6\obj\Debug\PAtividade6.csproj.GenerateResource.cache
+C:\Users\Gustavo Marengo\Desktop\FATEC\2 SEM\LP 2\aula online\ex 5 - pedro\PAtividade6\Atividade6\obj\Debug\PAtividade6.exe
+C:\Users\Gustavo Marengo\Desktop\FATEC\2 SEM\LP 2\aula online\ex 5 - pedro\PAtividade6\Atividade6\obj\Debug\PAtividade6.pdb
